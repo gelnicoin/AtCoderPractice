@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  bool a = 10; // 1はtrueだが、10もtrue
+  bool b = 0; // 0はfalse
+  cout << a << endl; // 1
+  cout << b << endl; // 0
+
+  // 100はtrue
+  if (100) {
+    cout << "hello" << endl;
+  }
+}
+
