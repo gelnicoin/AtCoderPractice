@@ -1,0 +1,17 @@
+string型を表すために" "で囲ったように、char型を表すためには' 'で囲います
+
+文字列変数.at(i)で取得されるデータはchar型です
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  string str = "Hello";
+  cout << str.size() << endl; // 5
+  cout << "Hello"s.size() << endl; // 5（sを末尾につける）
+  cout << "Hello".size() << endl; // できない
+}
+
+C++の順序では'0'～'9'→'A'～'Z'→'a'～'z'の順
+
+string型とchar型を+すると、文字列同士と同様に連結できる
